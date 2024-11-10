@@ -1,0 +1,93 @@
+/* Global Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #4a9835;
+}
+
+/* Calendar Container */
+.calendar-container {
+    width: 90%;
+    max-width: 900px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Header Styling */
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.calendar-header h2 {
+    font-size: 1.5rem;
+    color: #4CAF50;
+}
+
+/* Weekday Labels */
+.calendar-week {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+    color: #333;
+}
+
+.day-header {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Days Grid */
+.calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+/* Day Styling */
+.day {
+    border: 1px solid #ddd;
+    padding: 10px;
+    min-height: 80px;
+    position: relative;
+    cursor: pointer;
+}
+
+.day:hover {
+    background-color: #f0f0f0;
+}
+
+.event {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    padding: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+/* Navigation Buttons */
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}

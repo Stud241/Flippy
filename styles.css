@@ -1,0 +1,246 @@
+body {
+    font-family: 'Regular 400 Italic', sans-serif; /* Change to a more modern font */
+    background-color: #7a8bfa; /* Light background for a clean look */
+    color: #333; /* Dark text for contrast */
+    margin: 0;
+    padding: 0;
+}
+.title {
+    font-size: 7rem; /* Larger font size */
+    font-weight: 900; /* Bold for emphasis */
+    color: #ffffff; /* Match the green theme color */
+    text-transform: uppercase; /* Capitalize for a professional look */
+    letter-spacing: 2px; /* Space out letters slightly */
+    margin: 20px 0; /* Space around the title */
+}
+
+header {
+    background-color: #333;
+    color: rgb(117, 10, 224);
+    text-align: center;
+    padding: 60px 0; /* Increase padding for emphasis */
+}
+
+.container {
+    max-width: 800px; /* Center content */
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 150px; /* Adjust logo size */
+    margin: 20px 0;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around; /* Space cards evenly */
+    flex-wrap: wrap; /* Wrap cards on smaller screens */
+}
+
+.nav-card {
+    background: white; /* White background for cards */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 200px; /* Fixed width for cards */
+    margin: 10px; /* Margin between cards */
+    padding: 20px; /* Padding inside cards */
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+    transition: transform 0.2s; /* Animation on hover */
+}
+
+.nav-card:hover {
+    transform: translateY(-5px); /* Lift card on hover */
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333; /* Dark footer */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+#timer {
+    font-size: 4rem; /* Increase font size for better visibility */
+    font-weight: bold; /* Make the timer text bold */
+    color: #333; /* Dark color for better contrast */
+    padding: 20px; /* Add padding around the timer */
+    margin: 20px auto; /* Center the timer on the page */
+    border: 2px solid #4CAF50; /* Add a green border to match the theme */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    max-width: 200px; /* Set a max width */
+    text-align: center; /* Center the text within the timer */
+}
+
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+ 
+
+
+.event {
+    background-color: #1E90FF;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    width: calc(100% - 10px);
+    margin: 0 5px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.pomodoro-container {
+    text-align: center;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 100px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 900px;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.timer-display {
+    font-size: 10rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.timer-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.timer-buttons button {
+    background-color: #4CAF50;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.9s;
+}
+
+.timer-buttons button:hover {
+    background-color: #45a049;
+}
+
+.timer-buttons button:active {
+    background-color: #3e8e41;
+}
+
+
+/* Global Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Regular 400 Italic, sans-serif;
+    background: linear-gradient(to bottom right, #4CAF50, #81C784);
+    overflow: hidden;
+    color: #fff;
+}
+
+/* Home Screen Container */
+.home-container {
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Header Styling */
+.animated-header h1 {
+    font-size: 7rem;
+    margin: 0;
+    animation: slideInFromTop 1s ease forwards;
+}
+
+.animated-header p {
+    font-size: 1.2rem;
+    margin: 10px 0 20px;
+    animation: fadeIn 1.5s ease forwards;
+}
+
+/* Button Styling */
+.feature-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.feature-btn {
+    background-color: #fff;
+    color: #4CAF50;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.feature-btn:hover {
+    transform: translateY(-5px);
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.feature-btn:active {
+    transform: scale(0.95);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideInFromTop {
+    from {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
